@@ -1,0 +1,33 @@
+html {
+    background-color: rgb(6, 5, 70);
+}
+
+body {
+    color: rgb(255, 251, 0);
+    font-size: x-large;
+    text-align: left;
+    padding-top: 100px;
+    width: 600px;
+    margin-left: 565px;
+    margin-right: 65px;
+}
+
+@keyframes transition {
+    from {color: rgb(255, 251, 0);}
+    to {color: rgb(255, 115, 0)}
+}
+
+h1 {
+    text-shadow: 2px 3px rgb(123, 255, 0);
+    animation: transition 6s infinite;
+}
+
+.Inputs {
+    height: 25px;
+    width: 158px;
+    font-size: large;
+    color: darkgreen;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    caret-color: crimson;
+}
